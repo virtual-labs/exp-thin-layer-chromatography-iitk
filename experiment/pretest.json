@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the main objective of the experiment involving thin layer chromatography (TLC)?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To identify the solvent used in chromatography.",
+        "b": "To understand the principles of chromatographic techniques.",
+        "c": "To separate ink components based on their colours.",
+        "d": "To measure the thickness of the stationary phase."
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -15,16 +15,33 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "In thin layer chromatography (TLC), what is the purpose of the stationary phase?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To dissolve the ink components.",
+        "b": "To serve as the mobile phase.",
+        "c": "To carry the solvent.",
+        "d": "To provide a surface for separation."
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How does chromatography separate components in a mixture?",
+      "answers": {
+        "a": "By using a single solvent with high polarity.",
+        "b": "By attracting all components to the mobile phase.",
+        "c": "By exploiting differences in polarity between components.",
+        "d": "By evaporating the stationary phase."
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -33,6 +50,40 @@
         "d": "Explanation 2"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the significance of the Rf value in TLC?",
+      "answers": {
+        "a": "To calculate the density of the solvent.",
+        "b": "To identify the mobile phase",
+        "c": "To quantify the amount of stationary phase.",
+        "d": "To identify and compare components in a mixture."
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How does the choice of solvent polarity affect the separation of components in TLC?",
+      "answers": {
+        "a": "A more polar solvent results in better separation.",
+        "b": "A more polar solvent carries all components together.",
+        "c": "Solvent polarity has no effect on separation.",
+        "d": "A less polar solvent is ideal for separation."
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
