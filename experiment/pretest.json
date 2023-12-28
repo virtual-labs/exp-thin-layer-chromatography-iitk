@@ -53,7 +53,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "What is the significance of the Rf value in TLC?",
+      "question": "What is the significance of the R<sub>f </sub> value in TLC?",
       "answers": {
         "a": "To calculate the density of the solvent.",
         "b": "To identify the mobile phase",
