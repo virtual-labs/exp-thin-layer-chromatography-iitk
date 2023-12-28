@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "In thin layer chromatography (TLC), why is it essential to ensure that the stationary phase is fully dried before analysing the results?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To prevent solvent contamination.",
+        "b": "To reduce the polarity of the stationary phase.",
+        "c": "To enhance the separation of ink components.",
+        "d": "Drying the stationary phase is not necessary."
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,12 +19,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is the Rf value in the context of TLC?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "The rate of flow of the stationary phase.",
+        "b": "The distance travelled by the solvent.",
+        "c": "The ratio of the distance travelled by a component to the distance travelled by the solvent front.",
+        "d": "The concentration of ink components."
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -33,6 +33,57 @@
         "d": "Explanation 2"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why is it important to experiment with solvents of varying polarities when performing TLC?",
+      "answers": {
+        "a": "To increase the thickness of the stationary phase.",
+        "b": "To reduce the distance travelled by the solvent front.",
+        "c": "To determine the Rf values of the components.",
+        "d": "To find a suitable solvent for separating or identifying components."
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If a solvent with very high polarity is used in TLC, what is the likely outcome?",
+      "answers": {
+        "a": "All components will separate effectively.",
+        "b": "The stationary phase will dissolve.",
+        "c": "No separation will occur as all components will move with the solvent.",
+        "d": "Solvent front will not reach the top of the TLC plate."
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What characteristic of different ink components make their identification possible using TLC?",
+      "answers": {
+        "a": "Their colour differences.",
+        "b": "Their odour.",
+        "c": "Their solubility in water.",
+        "d": "Their unique Rf values in specific solvents."
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
   ]
