@@ -1,1 +1,1 @@
-### Aim of the experiment
+Gathering of knowledge about the chromatographic principles.
