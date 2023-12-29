@@ -8,15 +8,15 @@
 6)	TLC plates</br>
 7)	Graphite pencils.</br>
 <b>5.2. Procedure in laboratory (diagram)</b></br>
-<centre><Img src ="img(2.png)"></centre><br></br>
-<centre><Img src ="img(3.png)"></centre><br></br>
-<centre><Img src ="img(4.png)"></centre><br></br>
-<centre><Img src ="img(5.png)"></centre><br></br>
-<centre><Img src ="img(6.png)"></centre><br></br>
+<center><Img src ="!img](2-2.png)"></center><br></br>
+<center><Img src ="![img](3-1.png)"></center><br></br>
+<center><Img src ="![img](4-1.png)"></center><br></br>
+<center><Img src ="![img](5-1.png)"></center><br></br>
+<center><Img src ="![img](6-1.png))"></center><br></br>
 <b>5.3. Procedure in laboratory</b></br>
-<centre><Img src ="img(7.jpg)"></centre><br></br>
-<centre><Img src ="img(8.jpg)"></centre><br></br>
-<centre>See video!</centre> </br>
+<center><Img src ="![img](7-1.jpg)"></center><br></br>
+<center><Img src ="![img](8-1.jpg)"></center><br></br>
+<center>See video!</center> </br>
 <b>5.4. Data and the analysis</b></br>
-<centre><Img src ="img(9.png)"></centre><br></br>
+<center><Img src ="![img](9-1.png)"></center><br></br>
 <b>5.5. Procedure in simulator of the experiment</b></br>
