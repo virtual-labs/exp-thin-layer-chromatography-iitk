@@ -1,13 +1,128 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Thin layer chromatography of ink</title>
+    
 </head>
 <body>
-		<!-- Your code goes here-->
+    <div class="container" id="bod">  
+        <img id="labpic" src="pics/finallab.png" alt="lab">  
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+        <div class="instructionsBox">
+             <h6>Instructions</h6>
+            <h1 id="message">start</h1>
+        </div>
+        
+        <div class="container1">
+            <img id="tiles" src="pics/tiles.png" alt="">
+        </div>
+         
+        <div class="instruments">
+            <img id="speakbtn" onclick="speak()" src="pics/speaker.png"></img>
+
+            <img id="pencil1" src="pics/pENCIL-(1).png" alt="">
+            <img  id="introslide" src="pics/introslide.png" alt="">
+            <img id="penintro" src="pics/pen.png" alt="">
+           
+            <img id="forceps1" src="pics/newforceps.png" alt="">
+           
+  
+            
+            <button id="next" onclick="next()">NEXT</button>   
+            
+  
+            
+            <img id="TCback" src="pics/backTLCchamber.png" alt="">
+            <img id="bottomTLCliquid" src="pics/bottomTLCliquid.png" alt="">
+            <img id="middleTLCliquid" src="pics/middleTLCliquid.png" alt="">
+            <img id="topTLCliquid" src="pics/topTLCliquid.png" alt="">
+            
+            <img id="forceps" onclick="forceps()" src="pics/newforceps.png" alt="">
+            <img id="wetslide"   src="pics/wetslidenew1.png" alt="">
+           
+           
+            <img id="middleTLCchamber" src="pics/middleTLCchamber.png" alt="">
+            <img id="TCfront"  src="pics/frontTLCchamber.png" alt="">
+            
+            <img id="cap" onclick="clos()" src="/pics/cap1.png" alt="">
+  
+           
+            <img id="b1back" src="/pics/new-beaker.png" alt=""> 
+            <img id="readymade3ml" src="pics/readymade3ml.png" alt="">
+            <img id="b2back" src="/pics/new-beaker.png" alt="">
+            <img id="readymade7ml" src="pics/readymade7ml.png" alt="">
+            <img id="b3back" src="/pics/new-beaker.png" alt=""> 
+            <img id="readymade35ml" src="pics/readymade35ml.png" alt="">
+            <img id="pipette"  onclick="pipepick()" src="pics/pipettenew.png" alt="">
+           
+            <img id="pipette3ml" src="pics/pipette3ml.png" alt="">
+            <img id="b1middle"  src="pics/b1middlelayer.png" alt="">
+            <img id="b1front"  src="pics/frontlayer.png" alt="">
+  
+            <img id="pipette35ml"  src="pics/new35.png" alt="">
+            <img id="b2middle"  src="pics/b2middlelayer.png" alt="">
+            <img id="b2front"  src="pics/frontlayer.png" alt="">
+            
+            <img id="pipette7ml" src="pics/pipette7ml.png" alt="">
+            <img id="b3middle"  src="pics/b3middlelayer (2).png" alt="">
+            <img id="b3front"  src="pics/frontlayer.png" alt="">
+            
+            <p id="p1"></p>
+  
+            <button id="nxt" onclick="nxt()">NEXT</button>
+
+            <p id="m1">Top view of the table</p>
+            <img id="toptable" src="pics/topview.png" alt="">
+
+            <img id="TCback1" src="pics/backTLCchamber.png" alt="">
+            <img id="ss" onclick="standing()" src="pics/standingslide.png" alt="">
+            <img id="middleTLCchamber1" src="pics/middleTLCchamber.png" alt="">
+            <img id="TCfront1"  src="pics/frontTLCchamber.png" alt="">
+
+            <img id="slide" src="pics/inkslide.png" alt="">
+            <img id="line" src="pics/line.png" alt="">
+            <img id="line1" src="pics/line.png" alt="">
+            <img id="pencil" onclick="draw()" src="pics/pencilreal.png" alt="">
+           
+           
+            <button id="nxt1" onclick="nxt1()">NEXT</button>
+
+           
+            <img id="lineslide" src="pics/horizontalslide.png" alt="">
+            <img id="linedot" src="pics/linedot.png" alt="">
+            <img  id="pen" onclick="mov()" src="pics/pen.png" alt="">
+            <img id="ruler" onclick="ruler()" src="pics/ruler.png" alt="">
+            <img id="dryslide" src="pics/dryslide.png" alt="">
+            
+            <img id="hd1" onclick="horizon()" src="pics/horizontaldotslide.png" alt="">
+            <img id="hd2" src="pics/horizontalslidewet.png" alt="">
+          
+            <div id="hpencil"></div>
+            <div id="hintroslide"></div>
+            <div id="hforceps1"></div>
+            <div id="hcap"></div>
+            <div id="hpenintro"></div>
+            <div id="hpipette"></div>
+            <div id="hTCfront"></div>
+            <div id="hb1front"></div>
+            <div id="hb2front"></div>
+            <div id="hb3front"></div>
+            <h1 id="hovt"></h1>
+            <button id="nxt2" onclick="nxt2()">NEXT</button>
+
+        </div>
+        <div id="langselector">        
+            <h1 id="lselector">Please select your preferred language!</h1>
+            <button id="hindi" onclick="hindi1()">HINDI</button>363
+            <button id="eng" onclick="eng1()">ENGLISH</button>
+        </div> 
+
+    </div>
+    <script src="script.js"></script>
+    <script src="hover.js"></script>
 </body>
 </html>
