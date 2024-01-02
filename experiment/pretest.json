@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What is the main objective of the experiment involving thin layer chromatography (TLC)?",
+      "question": "1. What is the main objective of the experiment involving thin layer chromatography (TLC)?",
       "answers": {
         "a": "To identify the solvent used in chromatography.",
         "b": "To understand the principles of chromatographic techniques.",
@@ -19,7 +19,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "In thin layer chromatography (TLC), what is the purpose of the stationary phase?",
+      "question": "2. In thin layer chromatography (TLC), what is the purpose of the stationary phase?",
       "answers": {
         "a": "To dissolve the ink components.",
         "b": "To serve as the mobile phase.",
@@ -36,7 +36,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "How does chromatography separate components in a mixture?",
+      "question": "3. How does chromatography separate components in a mixture?",
       "answers": {
         "a": "By using a single solvent with high polarity.",
         "b": "By attracting all components to the mobile phase.",
@@ -53,7 +53,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "What is the significance of the R<sub>f </sub> value in TLC?",
+      "question": "4. What is the significance of the R<sub>f </sub> value in TLC?",
       "answers": {
         "a": "To calculate the density of the solvent.",
         "b": "To identify the mobile phase",
@@ -70,7 +70,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "How does the choice of solvent polarity affect the separation of components in TLC?",
+      "question": "5. How does the choice of solvent polarity affect the separation of components in TLC?",
       "answers": {
         "a": "A more polar solvent results in better separation.",
         "b": "A more polar solvent carries all components together.",
