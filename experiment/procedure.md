@@ -16,4 +16,4 @@
 <centre><Img src ="images/7.jpg" width="250" height="250" alt=""></centre><br></br>
 <centre><Img src ="images/8.jpg" width="250" height="250" alt=""></centre><br></br>
 <b> Data and the analysis</b></br>
-<centre><Img src ="images/9.png" width="250" height="250" alt=""></centre>
+<centre><Img src ="images/9.png" ></centre>
