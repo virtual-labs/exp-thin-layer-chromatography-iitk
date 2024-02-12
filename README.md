@@ -1,7 +1,7 @@
 ## Introduction
 
 
-<b>Discipline | <b> Chemical Enginnering
+<b>Discipline | <b> Chemical Engineering
 :--|:--|
 <b> Lab | <b> Basic Chemistry Laboratory-I
 <b> Experiment|     <b> Thin layer chromatography of ink
