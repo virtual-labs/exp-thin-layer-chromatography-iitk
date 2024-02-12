@@ -21,4 +21,3 @@ Chromatography is extensively used by the chemists to separate compounds in a mi
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
 1 | Anshika Raikwar | Student | Computer Science & Information Technology | BU Jhansi | raikwaranshika25@gmail.com
-2 | . | . | . | . | .
