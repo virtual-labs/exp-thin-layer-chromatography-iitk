@@ -1,0 +1,131 @@
+
+/home/runner/work/exp-thin-layer-chromatography-iitk/exp-thin-layer-chromatography-iitk/experiment/simulation/hover.js
+  167:21  warning  'counter' is not defined  no-undef
+  168:9   warning  'f' is not defined        no-undef
+  169:9   warning  'counter' is not defined  no-undef
+  170:9   warning  'update' is not defined   no-undef
+
+/home/runner/work/exp-thin-layer-chromatography-iitk/exp-thin-layer-chromatography-iitk/experiment/simulation/parul3.js
+  266:11  warning  'next' is defined but never used          no-unused-vars
+  275:11  warning  'open' is defined but never used          no-unused-vars
+  283:11  warning  'cappick' is defined but never used       no-unused-vars
+  291:10  warning  'update' is defined but never used        no-unused-vars
+  293:8   warning  'col' is assigned a value but never used  no-unused-vars
+
+/home/runner/work/exp-thin-layer-chromatography-iitk/exp-thin-layer-chromatography-iitk/experiment/simulation/script.js
+   54:5   warning  'hindibtn' is assigned a value but never used    no-unused-vars
+   55:5   warning  'engbtn' is assigned a value but never used      no-unused-vars
+   62:10  warning  'hindi1' is defined but never used               no-unused-vars
+   69:10  warning  'eng1' is defined but never used                 no-unused-vars
+  143:6   warning  'bottomtlc' is assigned a value but never used   no-unused-vars
+  150:6   warning  'n3' is assigned a value but never used          no-unused-vars
+  152:6   warning  'capillary1' is assigned a value but never used  no-unused-vars
+  155:6   warning  'ink' is assigned a value but never used         no-unused-vars
+  156:6   warning  'inkfront' is assigned a value but never used    no-unused-vars
+  183:11  warning  'next' is defined but never used                 no-unused-vars
+  184:7   warning  'f' is not defined                               no-undef
+  187:7   warning  'penintro' is not defined                        no-undef
+  191:7   warning  'hpencil' is not defined                         no-undef
+  192:7   warning  'hintroslide' is not defined                     no-undef
+  193:7   warning  'hforceps1' is not defined                       no-undef
+  194:7   warning  'hpenintro' is not defined                       no-undef
+  195:7   warning  'hpipette' is not defined                        no-undef
+  196:7   warning  'hTCfront' is not defined                        no-undef
+  197:7   warning  'hb1front' is not defined                        no-undef
+  198:7   warning  'hb2front' is not defined                        no-undef
+  199:7   warning  'hb3front' is not defined                        no-undef
+  200:7   warning  'hcap' is not defined                            no-undef
+  201:7   warning  'f' is not defined                               no-undef
+  207:11  warning  'pipepick' is defined but never used             no-unused-vars
+  208:15  warning  'f' is not defined                               no-undef
+  209:7   warning  'f' is not defined                               no-undef
+  221:9   warning  'f' is not defined                               no-undef
+  224:8   warning  'f' is not defined                               no-undef
+  227:11  warning  'f' is not defined                               no-undef
+  262:9   warning  'bottomTLCliquid' is not defined                 no-undef
+  263:9   warning  'bottomTLCliquid' is not defined                 no-undef
+  264:9   warning  'bottomTLCliquid' is not defined                 no-undef
+  279:9   warning  'f' is not defined                               no-undef
+  282:5   warning  'f' is not defined                               no-undef
+  285:11  warning  'f' is not defined                               no-undef
+  320:5   warning  'middleTLCliquid' is not defined                 no-undef
+  321:5   warning  'middleTLCliquid' is not defined                 no-undef
+  322:5   warning  'middleTLCliquid' is not defined                 no-undef
+  335:6   warning  'f' is not defined                               no-undef
+  338:6   warning  'f' is not defined                               no-undef
+  342:11  warning  'f' is not defined                               no-undef
+  380:3   warning  'topTLCliquid' is not defined                    no-undef
+  381:3   warning  'topTLCliquid' is not defined                    no-undef
+  382:3   warning  'topTLCliquid' is not defined                    no-undef
+  406:7   warning  'f' is not defined                               no-undef
+  410:6   warning  'f' is not defined                               no-undef
+  414:11  warning  'clos' is defined but never used                 no-unused-vars
+  415:6   warning  'f' is not defined                               no-undef
+  423:7   warning  'p1' is not defined                              no-undef
+  424:7   warning  'p1' is not defined                              no-undef
+  425:7   warning  'f' is not defined                               no-undef
+  429:5   warning  'f' is not defined                               no-undef
+  431:11  warning  'f' is not defined                               no-undef
+  437:7   warning  'f' is not defined                               no-undef
+  440:6   warning  'f' is not defined                               no-undef
+  443:11  warning  'f' is not defined                               no-undef
+  455:7   warning  'f' is not defined                               no-undef
+  457:7   warning  'f' is not defined                               no-undef
+  460:11  warning  'f' is not defined                               no-undef
+  464:7   warning  'f' is not defined                               no-undef
+  467:5   warning  'f' is not defined                               no-undef
+  471:11  warning  'nxt' is defined but never used                  no-unused-vars
+  472:6   warning  'f' is not defined                               no-undef
+  481:5   warning  'bottomTLCliquid' is not defined                 no-undef
+  482:5   warning  'bottomTLCliquid' is not defined                 no-undef
+  483:5   warning  'middleTLCliquid' is not defined                 no-undef
+  484:5   warning  'middleTLCliquid' is not defined                 no-undef
+  485:5   warning  'topTLCliquid' is not defined                    no-undef
+  486:5   warning  'topTLCliquid' is not defined                    no-undef
+  497:5   warning  'p1' is not defined                              no-undef
+  498:5   warning  'p1' is not defined                              no-undef
+  505:5   warning  'm1' is not defined                              no-undef
+  507:5   warning  'f' is not defined                               no-undef
+  512:10  warning  'ruler' is defined but never used                no-unused-vars
+  513:6   warning  'f' is not defined                               no-undef
+  518:7   warning  'f' is not defined                               no-undef
+  521:6   warning  'f' is not defined                               no-undef
+  524:11  warning  'f' is not defined                               no-undef
+  528:7   warning  'f' is not defined                               no-undef
+  531:5   warning  'f' is not defined                               no-undef
+  535:11  warning  'draw' is defined but never used                 no-unused-vars
+  536:6   warning  'f' is not defined                               no-undef
+  566:5   warning  'f' is not defined                               no-undef
+  569:4   warning  'f' is not defined                               no-undef
+  572:10  warning  'f' is not defined                               no-undef
+  595:11  warning  'nxt1' is defined but never used                 no-unused-vars
+  596:6   warning  'f' is not defined                               no-undef
+  607:5   warning  'm1' is not defined                              no-undef
+  611:5   warning  'topTLCliquid' is not defined                    no-undef
+  612:5   warning  'topTLCliquid' is not defined                    no-undef
+  616:5   warning  'f' is not defined                               no-undef
+  619:11  warning  'f' is not defined                               no-undef
+  620:17  warning  'f' is not defined                               no-undef
+  640:5   warning  'middleTLCchamber1' is not defined               no-undef
+  650:6   warning  'f' is not defined                               no-undef
+  654:11  warning  'f' is not defined                               no-undef
+  663:5   warning  'middleTLCchamber1' is not defined               no-undef
+  675:5   warning  'm1' is not defined                              no-undef
+  682:5   warning  'f' is not defined                               no-undef
+  688:11  warning  'mov' is defined but never used                  no-unused-vars
+  689:15  warning  'f' is not defined                               no-undef
+  690:6   warning  'f' is not defined                               no-undef
+  709:7   warning  'f' is not defined                               no-undef
+  713:5   warning  'f' is not defined                               no-undef
+  717:11  warning  'horizon' is defined but never used              no-unused-vars
+  718:6   warning  'f' is not defined                               no-undef
+  722:5   warning  'f' is not defined                               no-undef
+  727:11  warning  'forceps' is defined but never used              no-unused-vars
+  728:6   warning  'f' is not defined                               no-undef
+  763:7   warning  'f' is not defined                               no-undef
+  766:6   warning  'f' is not defined                               no-undef
+  768:11  warning  'f' is not defined                               no-undef
+  831:9   warning  'f' is not defined                               no-undef
+
+✖ 122 problems (0 errors, 122 warnings)
+
