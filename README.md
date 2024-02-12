@@ -10,7 +10,7 @@
 
 Chromatography is extensively used by the chemists to separate compounds in a mixture.
 
-<b>Name of Developer | <b> Prof. Pratik sen 
+<b>Name of Developer | <b> Prof. Pratik Sen 
 :--|:--|
 <b> Institute | <b>  Indian Institute of Technology Kanpur
 <b> Email id|     <b>  psen@iitk.ac.in
