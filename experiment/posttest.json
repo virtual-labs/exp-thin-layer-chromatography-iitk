@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "In thin layer chromatography (TLC), why is it essential to ensure that the stationary phase is fully dried before analysing the results?",
+      "question": "1. In thin layer chromatography (TLC), why is it essential to ensure that the stationary phase is fully dried before analysing the results?",
       "answers": {
         "a": "To prevent solvent contamination.",
         "b": "To reduce the polarity of the stationary phase.",
@@ -19,7 +19,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "What is the Rf value in the context of TLC?",
+      "question": "2. What is the Rf value in the context of TLC?",
       "answers": {
         "a": "The rate of flow of the stationary phase.",
         "b": "The distance travelled by the solvent.",
@@ -36,7 +36,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Why is it important to experiment with solvents of varying polarities when performing TLC?",
+      "question": "3. Why is it important to experiment with solvents of varying polarities when performing TLC?",
       "answers": {
         "a": "To increase the thickness of the stationary phase.",
         "b": "To reduce the distance travelled by the solvent front.",
@@ -53,7 +53,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "If a solvent with very high polarity is used in TLC, what is the likely outcome?",
+      "question": "4. If a solvent with very high polarity is used in TLC, what is the likely outcome?",
       "answers": {
         "a": "All components will separate effectively.",
         "b": "The stationary phase will dissolve.",
@@ -70,7 +70,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "What characteristic of different ink components make their identification possible using TLC?",
+      "question": "5. What characteristic of different ink components make their identification possible using TLC?",
       "answers": {
         "a": "Their colour differences.",
         "b": "Their odour.",

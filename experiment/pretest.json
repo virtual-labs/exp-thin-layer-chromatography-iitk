@@ -3,6 +3,7 @@
   "questions": [
     {
       "question": "Cehromatography is used in Chemistry to",
+
       "answers": {
         "a": " identify the solvent in a mixture.",
         "b": "measure the viscosity of a solution",
@@ -36,7 +37,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "How does chromatography separate components in a mixture?",
+      "question": "3. How does chromatography separate components in a mixture?",
       "answers": {
         "a": "By evaporating the solvent",
         "b": "By attracting all components to the mobile phase.",
@@ -53,7 +54,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "What is the significance of the R<sub>f </sub> value in TLC?",
+      "question": "4. What is the significance of the R<sub>f </sub> value in TLC?",
       "answers": {
         "a": "To calculate the density of the solvent.",
         "b": "To identify the mobile phase",
