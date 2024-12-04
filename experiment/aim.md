@@ -1,1 +1,1 @@
-<b> Gathering of knowledge about the chromatographic principles.</b>
+<b> Illustration and undestanding of chromatographic principles.</b>
