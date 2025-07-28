@@ -22,7 +22,7 @@ const messages = ["Make yourself familiar with the equipments by hovering over t
    "Click on the 'close the fact' button after knowing the fact!",
    "Open the TLC chamber.",
    "Hold the TLC plate. ",
-   "Move the TLC plate into the chamber using a forceps.",
+   "Moving the TLC plate into the chamber.",
    "Close the TLC chamber",
    "Wait for some time until some compounds are spotted on the plate",
    "Open the TLC chamber",
@@ -63,7 +63,7 @@ const messagesh=["उपकरणों के ऊपर माउस ले ज
    "तथ्य जानने के बाद 'क्लोज द  फैक्ट' बटन पर क्लिक करें!",
    "टीएलसी चैम्बर खोलें।",
    "टीएलसी प्लेट उठाइये।",
-   "एक संदंश का उपयोग करके टीएलसी प्लेट को चैम्बर में ले जाएँ।",
+   "टीएलसी प्लेट को चैम्बर में ले जाएँ।",
    "टीएलसी चैम्बर बंद करें।",
    "प्लेट पर कुछ यौगिक दिखाई देने तक कुछ समय तक प्रतीक्षा करें।",
    "टीएलसी चैम्बर खोलें।",
@@ -88,7 +88,7 @@ var mes1
 var counter=0
 
 var lang
-function hindi1(){
+/*function hindi1(){
     console.log(lang)
     lang="hindi"
     langselector.style.visibility="hidden"
@@ -100,7 +100,76 @@ function eng1(){
     lang="eng"
     langselector.style.visibility="hidden"
     update() 
+}*/
+
+
+
+
+
+// Instruction panel functionality
+const prevBtn = document.getElementById('prev-btn');
+const nextBtn = document.getElementById('next-btn');
+const messageContainer = document.getElementById('message-container');
+
+// Initially disable previous button
+prevBtn.disabled = true;
+
+prevBtn.addEventListener('click', () => {
+    if (counter > 1) {
+        counter -= 2; // Because update() increments counter
+        update();
+        nextBtn.disabled = false;
+    }
+    if (counter === 1) {
+        prevBtn.disabled = true;
+    }
+    // Auto-scroll to bottom of message container
+    setTimeout(() => {
+        messageContainer.scrollTop = messageContainer.scrollHeight;
+    }, 10);
+});
+
+// Modify your existing update() function
+function update() {
+    console.log(messages[counter].charAt());
+    if(lang == "hindi") {
+        inst.innerText = messagesh[counter];
+    } else if(lang == "eng") {
+        inst.innerText = messages[counter];
+    }
+    counter += 1;
+    
+    // Update button states
+    prevBtn.disabled = counter <= 1;
+    nextBtn.disabled = counter >= messages.length;
+    
+    // Auto-scroll to bottom of message container
+    setTimeout(() => {
+        messageContainer.scrollTop = messageContainer.scrollHeight;
+    }, 10);
+    
+    speech1();
 }
+
+// Make sure instruction panel is visible after language selection
+function hindi1(){
+    console.log(lang)
+    lang="hindi"
+    langselector.style.visibility="hidden"
+    document.getElementById('instruction-panel').style.display = 'flex';
+    update()
+}
+
+function eng1(){
+    console.log(lang)
+    lang="eng"
+    langselector.style.visibility="hidden"
+    document.getElementById('instruction-panel').style.display = 'flex';
+    update() 
+}
+
+
+
 
 
 
@@ -168,7 +237,7 @@ var over7ml=document.querySelector("#over7ml")
  var hd2=document.querySelector("#hd2")
  var ss=document.querySelector("#ss")
  var forceps1=document.querySelector("#forceps1")
- var z=document.querySelector("#forcepsmov")
+ //var z=document.querySelector("#forcepsmov")
  var wetslide=document.querySelector("#wetslide")
  var dryslide=document.querySelector("#dryslide")
 
@@ -357,8 +426,8 @@ var over7ml=document.querySelector("#over7ml")
   else if(f==23){
     arrow.style.visibility="hidden";                
     arrow.classList.remove("blink"); 
-    z.style.transitionDuration="0s";
-    z.style.visibility="hidden";
+    //z.style.transitionDuration="0s";
+    //z.style.visibility="hidden";
     hd2.style.transitionDuration="0s"
     hd2.style.visibility="hidden";
     captlc.style.transitionDuration="0s";
@@ -838,7 +907,7 @@ var over7ml=document.querySelector("#over7ml")
     setTimeout(function(){
      captlc.style.transform="translate(50%,0%)"
      arrow.style.top="63.5%"
-    arrow.style.left="33%"
+    arrow.style.left="55%"
     arrow.style.rotate="90deg"
     arrow.style.visibility="visible";
      f=22;
@@ -1177,7 +1246,7 @@ function ruler(){
     hd1.style.visibility="hidden";
     ss.style.visibility="visible";
     arrow.style.top="62%"
-    arrow.style.left="29%"
+    arrow.style.left="40%"
     arrow.style.rotate="90deg"
     arrow.style.visibility="visible";
     setTimeout(() => {
@@ -1186,42 +1255,43 @@ function ruler(){
     f=19;
     update();
   }
+  holdfor();
  }
 
   function holdfor(){
   if(f==19){
     arrow.style.visibility="hidden";                
     arrow.classList.remove("blink"); 
-    z.style.transform="translate(0%,-47%)";
+    //z.style.transform="translate(0%,-47%)";
     setTimeout(function(){
-      z.style.transform="translate(53%,-47%)";
+      //z.style.transform="translate(53%,-47%)";
     },1000)
   
     setTimeout(function(){
       ss.style.transform="translate(0%,-145%)"
-      z.style.transform="translate(53%,-119%)"
+      //z.style.transform="translate(53%,-119%)"
     },3500)
    
     setTimeout(function(){
       ss.style.transform="translate(478%,-145%)"
-      z.style.transform="translate(105%,-119%)"
+     // z.style.transform="translate(105%,-119%)"
     },5500)
 
     setTimeout(function(){
       ss.style.transform="translate(478%,5%)" 
-      z.style.transform="translate(98%,-58%) rotate(-60deg)"
+      //z.style.transform="translate(98%,-58%) rotate(-60deg)"
     },7500)
 
     setTimeout(function(){
-      z.style.transform="translate(105%,-110%) rotate(0deg)"
+      //z.style.transform="translate(105%,-110%) rotate(0deg)"
     },10000)
 
     setTimeout(function(){
-      z.style.transform="translate(15%,-110%) rotate(0deg)"
+      //z.style.transform="translate(15%,-110%) rotate(0deg)"
     },12000)
 
     setTimeout(function(){
-      z.style.transform="translate(15%,0%) rotate(0deg)"
+      //z.style.transform="translate(15%,0%) rotate(0deg)"
       arrow.style.top="58%"
       arrow.style.left="80%"
       arrow.style.rotate="-90deg"
@@ -1239,29 +1309,29 @@ function ruler(){
     arrow.style.visibility="hidden";                
     arrow.classList.remove("blink"); 
     setTimeout(function(){
-      z.style.transform="translate(15%,-80%)"  
+      //z.style.transform="translate(15%,-80%)"  
     },1000)
 
     setTimeout(function(){
-      z.style.transform="translate(98%,-80%)" 
+     // z.style.transform="translate(98%,-80%)" 
     },2000)
 
     setTimeout(function(){
-      z.style.transform="translate(98%,-60%) rotate(-60deg)"
+      //z.style.transform="translate(98%,-60%) rotate(-60deg)"
     },3000)
      
     setTimeout(function(){
       ss.style.transform="translate(478%,-145%)"
-      z.style.transform="translate(100%,-117%)"  
+     // z.style.transform="translate(100%,-117%)"  
     },6000)
 
     setTimeout(function(){
       ss.style.transform="translate(0%,-145%)"
-      z.style.transform="translate(50%,-117%)"
+     // z.style.transform="translate(50%,-117%)"
     },8000)
 
     setTimeout(function(){
-      z.style.transform="translate(50%,-47%)";
+     // z.style.transform="translate(50%,-47%)";
       ss.style.transform="translate(0%,0%)"
      },9500)
 
@@ -1269,15 +1339,15 @@ function ruler(){
         ss.style.transitionDuration="0s"
         ss.style.visibility="hidden"
         hd2.style.visibility="visible"
-        z.style.transform="translate(5%,-47%)";
+        //z.style.transform="translate(5%,-47%)";
      },12000)
 
     setTimeout(() => {
-      z.style.transform="translate(5%,-47%)";
+      //z.style.transform="translate(5%,-47%)";
     },13000);
 
      setTimeout(function(){
-        z.style.transform="translate(0%,0%)";
+        //z.style.transform="translate(0%,0%)";
         arrow.style.top="81%"
         arrow.style.rotate="90deg"
         arrow.style.left="86.5%"
@@ -1372,7 +1442,7 @@ function closefact(){
  
   hd1.style.transitionDuration="0s"
   hd1.style.visibility="visible"
-  forcepsmov.style.visibility="visible"
+  forcepsmov.style.visibility="hidden"
 
    i.style.transitionDuration="0s"
    i.style.visibility="hidden"
