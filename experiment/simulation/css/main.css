@@ -66,6 +66,97 @@ html,body{
     left:3%;
 }
 
+
+
+
+
+/* Instruction Panel Styles */
+#instruction-panel {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    width: 300px;
+    max-height: 80vh;
+    background-color: rgba(240, 240, 240, 0.95);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d0d0d0;
+    overflow: hidden;
+}
+
+#message-container {
+    flex-grow: 1;
+    min-height: 100px;
+    max-height: calc(80vh - 100px);
+    margin-bottom: 15px;
+    padding: 12px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    border-left: 4px solid #4CAF50;
+    overflow-y: auto;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+#instruction-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#instruction-controls button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    font-size: 14px;
+}
+
+#instruction-controls button:hover {
+    background-color: #45a049;
+}
+
+#instruction-controls button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Scrollbar styling */
+#message-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+#message-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+#message-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+#message-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+
+/* Remove the old instructionsBox styles */
+.instructionsBox {
+  display: none;
+}
+
 .instructionsBox{
     width:100%;    /*20*/
     height:7%;  /*100*/
@@ -480,8 +571,8 @@ html,body{
     width:0%;
     height:0%;
     color:rgb(255, 255, 255);
-    top:29%;
-    left:39%;
+    top:32%;
+    left:2%;
     white-space: nowrap;
     font-size: 2vw;
     text-decoration: underline;

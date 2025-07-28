@@ -10,10 +10,26 @@
 	<div class="container" id="bod">  
         <img id="labpic" src="images/newlab9c.png" alt="lab">  
        
-        <div class="instructionsBox">
+        <!--<div class="instructionsBox">
              <h6>Instructions</h6> 
              <h1 id="message">start</h1>
-        </div>
+        </div> -->
+        <!-- Remove the entire instructionsBox div -->
+
+
+<!-- Instruction Panel -->
+<div id="instruction-panel" style="display: none;">
+  <div id="message-container">
+    <p id="message">Make yourself familiar with the equipments by hovering over them.</p>
+  </div>
+  <div id="instruction-controls">
+    <button id="prev-btn">Previous</button>
+    <button id="next-btn" onclick="nxt()">Next</button>
+  </div>
+</div>
+
+
+
         
         <div class="container1">
             <img id="tiles" src="images/tiles.png" alt="tiles">
@@ -75,11 +91,11 @@
             <img id="toptable" src="images/topview.png" alt="topview">
 
             <img id="TCback1" src="images/backTLCchamber.png" alt="TCback">
-            <img id="forcepsmov" onclick="holdfor()" src="images/newforceps.png" alt="newforceps">
-            <img id="ss"  src="images/standingslide1.png" alt="">
+            <img id="forcepsmov" src="images/newforceps.png" alt="newforceps">
+            <img id="ss" onclick="holdfor()"  src="images/standingslide1.png" alt="">
             <img id="wetslide"  src="images/wetslidenew1.png" alt="wetslide">
             <img id="middleTLCchamber1" src="images/middleTLCchamber.png" alt="tlcmiddle">
-            <img id="TCfront1"  src="images/frontTLCchamber.png" alt="tlc">
+            <img id="TCfront1" onclick="holdfor()" src="images/frontTLCchamber.png" alt="tlc">
 
             <img id="slide" src="images/inkslide.png" alt="slide">
             <img id="line" src="images/line.png" alt="line">
