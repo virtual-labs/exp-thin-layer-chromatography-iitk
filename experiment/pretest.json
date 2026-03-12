@@ -10,12 +10,6 @@
         "c": "separate components in a mixture",
         "d": "measure the density of the components in a mixture"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -27,12 +21,7 @@
         "c": "give different colors to different species",
         "d": "provide a surface for separation."
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
@@ -44,12 +33,7 @@
         "c": "By exploiting differences in polarity between components.",
         "d": "By evaporating the stationary phase."
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -61,12 +45,7 @@
         "c": "To quantify the amount of stationary phase.",
         "d": "To identify and compare components in a mixture."
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
@@ -78,12 +57,7 @@
         "c": "A slower movement of solvent",
         "d": "A poor separation of components due to all of them moving together"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      
       "correctAnswer": "b",
       "difficulty": "beginner"
     }
