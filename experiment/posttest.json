@@ -9,12 +9,6 @@
         "c": "To enhance the separation of ink components.",
         "d": "Drying the stationary phase is not necessary."
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
@@ -26,12 +20,7 @@
         "c": "The ratio of the distance travelled by a component to the distance travelled by the solvent front.",
         "d": "The concentration of ink components."
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -43,12 +32,7 @@
         "c": "To determine the Rf values of the components.",
         "d": "To find a suitable solvent for separating or identifying components."
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
@@ -60,12 +44,7 @@
         "c": "No separation will occur as all components will move with the solvent.",
         "d": "Solvent front will not reach the top of the TLC plate."
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -77,12 +56,7 @@
         "c": "Their solubility in water.",
         "d": "Their unique Rf values in specific solvents."
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      
       "correctAnswer": "d",
       "difficulty": "beginner"
     }
