@@ -2,37 +2,63 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Chromatography is used in Chemistry to",
+
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": " identify the solvent in a mixture.",
+        "b": "measure the viscosity of a solution",
+        "c": "separate components in a mixture",
+        "d": "measure the density of the components in a mixture"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "In the thin layer chromatography of ink experiment, the purpose of the stationary phase is to",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "dissolve the ink components.",
+        "b": "evaporate the solvent",
+        "c": "give different colors to different species",
+        "d": "provide a surface for separation."
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. How does chromatography separate components in a mixture?",
+      "answers": {
+        "a": "By evaporating the solvent",
+        "b": "By attracting all components to the mobile phase.",
+        "c": "By exploiting differences in polarity between components.",
+        "d": "By evaporating the stationary phase."
       },
+
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. What is the significance of the R<sub>f </sub> value in TLC?",
+      "answers": {
+        "a": "To calculate the density of the solvent.",
+        "b": "To identify the mobile phase",
+        "c": "To quantify the amount of stationary phase.",
+        "d": "To identify and compare components in a mixture."
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The consequence of using a solvent whose polarity is much greater than the polarity of the components is",
+      "answers": {
+        "a": "A better separation of components",
+        "b": "A faster separation of components",
+        "c": "A slower movement of solvent",
+        "d": "A poor separation of components due to all of them moving together"
+      },
+      
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
