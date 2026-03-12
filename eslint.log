@@ -1,0 +1,17 @@
+
+/home/runner/work/exp-thin-layer-chromatography-iitk/exp-thin-layer-chromatography-iitk/experiment/simulation/js/hover.js
+  167:21  warning  'counter' is not defined  no-undef
+  168:9   warning  'f' is not defined        no-undef
+  169:9   warning  'counter' is not defined  no-undef
+  170:9   warning  'update' is not defined   no-undef
+  172:9   warning  'arrow' is not defined    no-undef
+  173:9   warning  'arrow' is not defined    no-undef
+  174:9   warning  'arrow' is not defined    no-undef
+  175:9   warning  'arrow' is not defined    no-undef
+  177:9   warning  'arrow' is not defined    no-undef
+
+/home/runner/work/exp-thin-layer-chromatography-iitk/exp-thin-layer-chromatography-iitk/experiment/simulation/js/main.js
+  198:15  error  Parsing error: Identifier 'update' has already been declared
+
+✖ 10 problems (1 error, 9 warnings)
+
